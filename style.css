@@ -31,6 +31,10 @@ body
 {
 	flex: 7;
 }
+.pt80
+{
+	padding-top: 80px;
+}
 h1,h3,h4
 {
 	margin-bottom: 12px;
@@ -227,4 +231,70 @@ footer
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.mob{
+	display: none;
+}
+
+/*Mobile*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.multitopic{
+	display: none;
+}
+.mob{
+	display: unset;
+}
+.div
+{
+	padding-top: 40px;
+}
+.maincon{
+	padding:40px 20px 20px 20px;
+}
+.subtitle,.logocon
+{
+	display: flex;
+	justify-content: center;
+}
+.aboutme
+{
+	flex:5;
+}
+.myphoto img
+{
+	flex:0;
+	margin-top: 50px;
+	width: 250px;
+	height: 250px;
+}
+.mpt80
+{
+	padding-top: 80px;
+}
+.social
+{
+	justify-content: space-between;
+}
+.social i
+{
+	padding-right: 0;
+}
+.tagline,.lcs,.complogo
+{
+	display: none;
+}
+.Experiences
+{
+	padding-bottom: 20%;
+}
+.footerimg
+{
+	display: none;
+}
+.footertxt
+{
+	font-size: 0.5rem;
+	padding-left: 0;
+}
 }
