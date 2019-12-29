@@ -19,6 +19,7 @@ body
 .logo
 {
 	width: 50px;
+	height: 64.08px;
 }
 .div
 {
@@ -235,10 +236,20 @@ footer
 .mob{
 	display: none;
 }
+.mtagline
+{
+	display: none;
+}
 
 /*Mobile*/
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+.mtagline
+{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
 .multitopic{
 	display: none;
 }
@@ -271,6 +282,10 @@ footer
 .mpt80
 {
 	padding-top: 80px;
+}
+.skillset
+{
+	flex:unset;
 }
 .social
 {
